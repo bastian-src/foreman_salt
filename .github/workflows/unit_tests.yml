@@ -26,7 +26,7 @@ jobs:
         foreman-repo: [theforeman/foreman]
         foreman-core-branch: [develop]
         ruby-version: [2.7]
-        node-version: [12]
+        node-version: [14]
     steps:
       - run: |
           sudo apt-get update
