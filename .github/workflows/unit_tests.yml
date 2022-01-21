@@ -48,6 +48,8 @@ jobs:
           bundler-cache: true
       - name: Prepare webpack
         run: |
+          pwd
+          ls -la ./foreman_salt
           npm install
           bundle exec rake webpack:compile
       - name: Prepare test DB
